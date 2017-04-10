@@ -1,0 +1,13 @@
+fieldset
+{
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+input[type=text]
+{
+	margin-left: 10px;
+}

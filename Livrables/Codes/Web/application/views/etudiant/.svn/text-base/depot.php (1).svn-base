@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="../../../../../../../../Desktop/PEGASE-PHP-V2/v0.9%20-%20etudiant/css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="../../../../../../../../Desktop/PEGASE-PHP-V2/v0.9%20-%20etudiant/css/style.css"  media="screen,projection"/>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+</head>
+
+<body class="background-grey-light">
+
+    <header>
+        <ul id="mobile-demo" class="side-nav fixed">
+            <li class="none-hover">
+                <a id="logo-container" href="#" class="brand-logo center margin-it">
+                <object id="front-page-logo" type="image/png" class="width-80" data="res/logo.png">Logo</object>
+                </a>
+            </li>
+            <hr class="blue-grey">
+            <li class="bold"><a href="aide-rendus.php" class="waves-effect waves-teal">Informations importantes</a></li>
+            <li class="bold"><a href="etapes.html" class="waves-effect waves-teal">Étapes du stage</a></li>
+            <li class="bold"><a href="offre.html" class="waves-effect waves-teal active">Offre de stages</a></li>
+            <li class="bold"><a href="gestion.html" class="waves-effect waves-teal">Gérer mon stage</a></li>
+            <li class="bold active"><a href="boite.php" class="waves-effect waves-teal">Boite de dépôts</a></li>
+            <li class="bold"><a href="archive.php" class="waves-effect waves-teal">Consulter les archives</a></li>
+            <li class="bold"><a href="#" class="waves-effect waves-teal">Déconnexion</a></li>
+
+        </ul>
+    </header>
+    <main class="padding-side-nav">
+        <div class="row logo-color" id="index-banner">
+            <div class="container">
+                <div class="col s12 m12 l0 hide-on-large-only">
+                    <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu menu-size white-text"></i></a>
+                </div>
+                <div class="col s12">
+                    <h2 class="white-text center-on-small-only font-weight-lower">Dépôt</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col s12 l8">
+                    <div class="row">
+                        <h5 class="col s12">Titre du dépôts</h5>
+                        <div class="col s12">
+                            <ul class="collection with-header">
+                                <li class="collection-header"><a href="#deposer" class="modal-trigger"><h5>Déposer un fichier<i class="mdi-file-file-upload right"></i></h5></a></li>
+                                <li class="collection-item"><div>Nom du fichier - <span title="dépositaire" class="grey-text">date de depot</span><a href="#!" class="secondary-content red-text"><i class="mdi-action-delete"></i></a></div></li>
+                                <li class="collection-item"><div>Nom du fichier - <span title="dépositaire" class="grey-text">date de depot</span><a href="#!" class="secondary-content red-text"><i class="mdi-action-delete"></i></a></div></li>
+                                <li class="collection-item"><div>Nom du fichier - <span title="dépositaire" class="grey-text">date de depot</span><a href="#!" class="secondary-content red-text"><i class="mdi-action-delete"></i></a></div></li>
+                                <li class="collection-item"><div>Nom du fichier - <span title="dépositaire" class="grey-text">date de depot</span><a href="#!" class="secondary-content red-text"><i class="mdi-action-delete"></i></a></div></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 l4">
+                    <div class="row">
+                        <h5 class="col s12">Informations</h5>
+                        <div class="col s12">
+                            <ul class="collection">
+                                <li class="collection-item avatar max-height-auto">
+                                    <i class="orange mdi-social-people-outline circle"></i>
+                                    <span class="title">Demandeur</span>
+                                    <p class="grey-text">Administration</p>
+                                </li>
+                                <li class="collection-item avatar max-height-auto">
+                                    <i class="red mdi-av-timer circle"></i>
+                                    <span class="title">Date limite</span>
+                                    <p class="grey-text">12 mars 2015 à 15h45</p>
+                                </li>
+                                <li class="collection-item avatar max-height-auto">
+                                    <i class="blue mdi-action-info-outline circle"></i>
+                                    <span class="title">Consignes de rendu</span>
+                                    <p class="grey-text">aejreairhutaoe eaouthouaethouaet haeout heaouthoaueth oueaht ouah touha touheoauth ouae touath ouaeht ouaeht uo</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="deposer" class="modal">
+                <form>
+                    <div class="modal-content">
+                        <h4>Déposer un fichier</h4>
+                        <div class="row">
+                            <div class="col s12">
+                                <input id="titre" type="text" class="validate" placeholder="Nom du rendu">
+                            </div>
+                            <div class="col s12">
+                                <textarea id="commentaire" class="materialize-textarea" placeholder="Commentaires"></textarea>
+                            </div>
+                            <div class="col s12">
+                                <div class="file-field input-field">
+                                    <input class="file-path validate" type="text"/>
+                                    <div class="btn">
+                                        <span class="mdi-file-folder-open"></span>
+                                        <input type="file" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn-flat waves-effect waves-green" type="submit" name="action">Déposer
+                            <i class="mdi-content-send right"></i>
+                        </button>
+                        <a href="#!" class=" modal-action modal-close waves-effect waves-red btn-flat">Annuler</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </main>
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="../../../../../../../../Desktop/PEGASE-PHP-V2/v0.9%20-%20etudiant/js/materialize.min.js"></script>
+    <script type="text/javascript" src="../../../../../../../../Desktop/PEGASE-PHP-V2/v0.9%20-%20etudiant/js/script.js"></script>
+</body>
+</html>

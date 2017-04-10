@@ -1,0 +1,220 @@
+@font-face {
+    font-family: 'pacificoregular';
+    src: url('http://134.59.28.162/assets/font/pacifico/Pacifico-webfont.eot');
+    src: url('http://134.59.28.162/assets/font/pacifico/Pacifico-webfont.eot?#iefix') format('embedded-opentype'),
+    url('http://134.59.28.162/assets/font/pacifico/Pacifico-webfont.woff2') format('woff2'),
+    url('http://134.59.28.162/assets/font/pacifico/Pacifico-webfont.woff') format('woff'),
+    url('http://134.59.28.162/assets/font/pacifico/Pacifico-webfont.ttf') format('truetype'),
+    url('http://134.59.28.162/assets/font/pacifico/Pacifico-webfont.svg#pacificoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.grey-clear{
+    color: #545658 !important;
+}
+
+.picture-fond{
+    background-image: url('http://134.59.28.162/assets/img/fond.jpg') !important;
+}
+
+.no-margin-padding{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+
+.background-grey-light{
+   background-color: rgb(252,252,252) !important;
+}
+
+.logo-font{
+   font-family: "pacificoregular", sans-serif;
+}
+
+.hover-picture{
+    position: absolute;
+    font-size: 1.64rem;
+    line-height: 1.804rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    font-weight: 300;
+    z-index: 1000;
+}
+
+.small-font{
+    font-size: .8rem;
+    font-weight: 300;
+}
+
+.hover-picture .disabled{
+    opacity: .50 !important;
+}
+
+.full-height{
+    min-height: 50rem;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.full-width{
+    min-width: 100%;
+}
+
+.margin-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.margin-it{
+    margin: 1rem;
+}
+
+.margin-it-higher{
+    margin: 4rem;
+}
+
+.min-height{
+    min-height: 400px;
+}
+
+.center-it{
+    vertical-align: middle;
+}
+
+.position-absolute{
+    position: absolute;
+    z-index: 1000;
+}
+
+.font-weight-lower{
+    font-weight: 300;
+}
+
+.higher-index{
+    z-index: 10000;
+}
+
+.lower-index{
+    z-index: 10;
+}
+
+.profile-picture{
+    max-height: 2rem;
+}
+.chat-fixed{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+.chat-color{
+    background-color: #e74c3c;
+}
+
+.amis{
+    margin: 1rem;
+}
+
+.amis-item{
+    margin: 1rem;
+}
+
+.amis-item img{
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+}
+
+.amis-item span{
+    vertical-align: middle;
+    margin-bottom: 40px;
+    display: inline-block;
+    font-size: large;
+}
+
+.width-80{
+    width: 80% !important;
+}
+
+.width-60{
+    width: 60% !important;
+}
+
+
+.block-it{
+    display: block;
+}
+
+.margin-240px{
+    margin-left: 240px;
+}
+
+@media only screen and (min-width : 992px) {
+    .padding-side-nav{
+        padding-left: 240px !important;
+    } }
+
+.none-hover:hover{
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.display-it{
+    display: inline-block;
+}
+
+.logo-color{
+    background-color: #e74c3c;
+}
+
+.bold{
+    font-weight: bold;
+    line-height: 44px;
+    font-size: 13px;
+    height: 44px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 0px;
+}
+
+.menu-size{
+    font-size: 32px;
+    line-height: 48px;
+}
+
+.max-height-offre{
+    height: 85px;
+    overflow: scroll;
+}
+.max-height-auto{
+    height: auto !important;
+    max-height: 150px;
+}
+
+.tag{
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+    margin-right: 0 !important;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    border: solid 1px red;
+    color: red !important;
+    border-radius: 2px;
+    transition: 1s;
+}
+
+.tag:hover{
+    border: solid 1px darkslategrey;
+    color: darkslategrey !important;
+    border-radius: 0px;
+}
+
+.no-border{
+    border: none !important;
+
+}

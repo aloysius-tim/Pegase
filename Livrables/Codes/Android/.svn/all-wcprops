@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/pt-s4t-gestion-des-stages/!svn/ver/26/Livrables/Codes/Android
+END
+PEGASE.iml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/pt-s4t-gestion-des-stages/!svn/ver/26/Livrables/Codes/Android/PEGASE.iml
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/pt-s4t-gestion-des-stages/!svn/ver/26/Livrables/Codes/Android/.gitignore
+END
+gradlew
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/pt-s4t-gestion-des-stages/!svn/ver/26/Livrables/Codes/Android/gradlew
+END
+local.properties
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/pt-s4t-gestion-des-stages/!svn/ver/26/Livrables/Codes/Android/local.properties
+END
+gradle.properties
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/pt-s4t-gestion-des-stages/!svn/ver/26/Livrables/Codes/Android/gradle.properties
+END
+gradlew.bat
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/pt-s4t-gestion-des-stages/!svn/ver/26/Livrables/Codes/Android/gradlew.bat
+END
+build.gradle
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/pt-s4t-gestion-des-stages/!svn/ver/26/Livrables/Codes/Android/build.gradle
+END
+settings.gradle
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/pt-s4t-gestion-des-stages/!svn/ver/26/Livrables/Codes/Android/settings.gradle
+END
